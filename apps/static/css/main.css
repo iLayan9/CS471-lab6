@@ -1,0 +1,68 @@
+/* ===== Task 1: Links ===== */
+#links-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #e8f4f8;
+}
+
+.link-item {
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    color: #0066cc;
+    background-color: #cce5ff;
+    margin: 8px auto;
+    width: 300px;
+    text-decoration: none;
+}
+
+.link-item:visited {
+    color: #6600cc;
+    background-color: #e0ccff;
+}
+
+.link-item:hover {
+    color: #ffffff;
+    background-color: #0066cc;
+}
+
+.link-item:active {
+    color: #ffffff;
+    background-color: #003399;
+}
+
+/* ===== Task 2: Text Formatting ===== */
+#formatting-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* ===== Task 3: Lists ===== */
+#listing-container ul,
+#listing-container ol {
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+/* ===== Task 4: Tables ===== */
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.styled-table th,
+.styled-table td {
+    border: 1px solid #aaa;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.styled-table th {
+    background-color: #4472c4;
+    color: white;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #dce6f1;
+}

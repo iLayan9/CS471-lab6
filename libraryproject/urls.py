@@ -37,6 +37,12 @@ from apps.bookmodule import views
 #]
 
 #task6:
+#urlpatterns = [
+#    path('admin/', admin.site.urls),
+#    path('books/', include('apps.bookmodule.urls')),
+#]
+
+#lab5
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('books/', include('apps.bookmodule.urls')),

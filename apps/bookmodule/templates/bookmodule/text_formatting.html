@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Formatting</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+
+<div id="formatting-container">
+    <h1>Example of Formatting Tags</h1>
+
+    <p><b>Bold text</b> using b tag</p>
+    <p><strong>Strong text</strong> using strong tag</p>
+    <p><i>Italic text</i> using i tag</p>
+    <p><em>Emphasized text</em> using em tag</p>
+    <p><u>Underlined text</u> using u tag</p>
+    <p><s>Strikethrough text</s> using s tag</p>
+    <p><mark>Highlighted text</mark> using mark tag</p>
+    <p><small>Small text</small> using small tag</p>
+    <p>H<sub>2</sub>O using sub tag</p>
+    <p>X<sup>2</sup> using sup tag</p>
+    <p><code>print("Hello")</code> using code tag</p>
+
+    <p><b><i>Bold and Italic nested</i></b></p>
+    <p><u><strong>Underlined and Strong nested</strong></u></p>
+
+</div>
+
+</body>
+</html>
